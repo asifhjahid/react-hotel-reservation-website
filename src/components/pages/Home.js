@@ -1,10 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import HomeStyle from '../../style/Home.styles'
+import Banner from '../Banner'
 import Hero from '../Hero'
 
 export default function Home() {
     return (
-        <div>
-            <Hero />
-        </div>
+        <HomeStyle>
+            <Hero>
+                <Banner 
+                    title='luxurious rooms'
+                    subtitle='deluxe rooms starting at $299'
+                    >
+                    <Link to='/rooms' className='btn-primary'>
+                        our rooms
+                    </Link>
+                </Banner>
+            </Hero>
+        </HomeStyle>
     )
 }
