@@ -6,7 +6,7 @@ const NavStyle = styled.div`
         top:0;
         left:0;
         width:100%;
-        height: 15vh;
+        height: 13vh;
         /* padding: .2rem 0; */
         /* background-color:#0A0A0A; */
         background-color: #e0030b;
@@ -18,13 +18,19 @@ const NavStyle = styled.div`
        .logoImage{
            width: 35%;
            height: 14vh;
+           
        }
         img{
            width: 100%;
            height: 16vh;
            cursor: pointer;
+           transition: all .3s ease-in-out;
            
 
+        }
+        img:hover{
+            transform: rotate(-360deg);
+            
         }
         h1{
             text-align: left;
@@ -62,7 +68,7 @@ const NavStyle = styled.div`
                 display: inline-block;
                 font-family: 'RobotoMono Regular';
                 padding: 1rem;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 font-family: sans-serif;
                 color: #ffffff;
                 outline: none;
@@ -95,7 +101,7 @@ const NavStyle = styled.div`
             
             img{
                 position: relative;
-                top: -12%;
+                top: -25%;
             }
             .NavMobileOpen{
                 position: absolute;
@@ -122,7 +128,7 @@ const NavStyle = styled.div`
                 background-color: #1E1E1E;
                 border-radius: 14px;
                 position: absolute;
-                top: 57px;
+                top: 45px;
                 
                 
                 .NavMobileClose{
