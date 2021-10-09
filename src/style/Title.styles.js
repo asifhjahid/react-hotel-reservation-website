@@ -14,7 +14,7 @@ const TitleStyle = styled.div`
     /* margin-bottom: 1rem; */
   }
     hr {
-    width: 8rem;
+    width: 9rem;
     height: 5px;
     margin: 0 auto;
     background: var(--primaryColor);

@@ -8,7 +8,7 @@ import Hero from '../Hero'
 export default function Rooms() {
     return (
         <RoomsStyle>
-            <img src={RomeImage} alt='RomeImage'/>;
+            <img src={RomeImage} alt='RomeImage'/>
            
             <Banner title='Our Rooms'>
                 <Link to='/' className='btn-primary'>

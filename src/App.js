@@ -8,11 +8,12 @@ import About from './components/pages/About';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Nav from './components/Nav';
 import './style.css'
+import {RoomProvider} from './context/Context'
 
 
 function App() {
   return (
-    <div className="App">
+    <RoomProvider>
      <Router>
        <Nav />
        <Switch>
@@ -27,7 +28,7 @@ function App() {
        </Switch>
      
      </Router>
-    </div>
+    </RoomProvider>
   );
 }
 

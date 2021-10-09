@@ -5,7 +5,7 @@ import HeroStyle from '../style/Hero.styles'
 export default function Hero({children}) {
     return (
         <HeroStyle className='homeImage'>
-            <img src={HomeImage} alt='HomeImage'/>;
+            <img src={HomeImage} alt='HomeImage'/>
         
         <div>
             {children}
