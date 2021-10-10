@@ -5,6 +5,7 @@ import RoomsStyle from '../../style/Rooms.styles'
 import Banner from '../Banner'
 import Button from '../Button'
 import Hero from '../Hero'
+import RoomsContainer from '../RoomsContainer'
 
 export default function Rooms() {
     return (
@@ -15,7 +16,7 @@ export default function Rooms() {
                 <Button link='/' text='Return Home' />
              
             </Banner>
-            
+            <RoomsContainer />
         </RoomsStyle>
     )
 }
