@@ -6,7 +6,7 @@ export default function Button({link,text}) {
     return (
         <ButtonStyle>
              <Link to={link} className='btn-primary'>{text}</Link>
-             {/* <Link to='/rooms' className='btn-primary'>{Text}</Link> */}
+            
         </ButtonStyle>
     )
 }
