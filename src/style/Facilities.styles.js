@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-const ServicesStyle =styled.div`
+const FacilitiesStyle =styled.div`
 
         margin-top: 30px;
-        width: 90%;
+        width: 98%;
         margin: 0 auto;
 
        .services{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         background: var(--darkGrey);
         
        }
 `
 
-export default ServicesStyle;
+export default FacilitiesStyle;

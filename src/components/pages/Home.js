@@ -14,15 +14,16 @@ export default function Home() {
             <Hero>
                 <Banner 
                     title='luxurious rooms'
-                    subtitle='deluxe rooms starting at $499'
+                    subtitle='deluxe rooms starting at $399'
                     >
                     <Button link='/rooms' text='Our Rooms' />
                    
                 </Banner>
              </Hero>
             <FeaturedRoom />
-            {/* <Services /> */}
+            
            <Facilities />
+           
         </HomeStyle>
     )
 }

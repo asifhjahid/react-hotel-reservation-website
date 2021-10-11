@@ -1,20 +1,20 @@
 import React from 'react'
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
-import ServicesStyle from '../../style/Services.styles';
+import FacilitiesStyle from '../../style/Facilities.styles';
 import ServicesItems from '../ServicesItems'
 import businessCenter from '../../assets/images/business-centre.PNG'
 import healthClub from '../../assets/images/healthClub.jpg'
 import clubLounge from '../../assets/images/clubLounge.jpg'
 import navvySalon from '../../assets/images/navvySalon.PNG'
 import Title from '../Title'
+import Footer from '../Footer';
 
 
 export default function Facilities() {
     return (
-        <ServicesStyle>
+        <FacilitiesStyle>
             <Title title='Facilities and Services' />
             <div className='services'>
-           
+            <div>
             <ServicesItems
             title='Business Centre'
             image = {businessCenter}
@@ -22,8 +22,6 @@ export default function Facilities() {
             servicesList = {['Rental of conference and meeting rooms which can accommodate 10 to 12 people',
                             'Private cubicles for email and Internet browsing',
                             'Local call facilities',
-                            'Parcel wrapping',
-                            'Photocopying',
                             'Business magazines',
                             'Trade directories',
                         
@@ -50,7 +48,8 @@ export default function Facilities() {
                              
             
             />
-            
+            </div>
+            <div>
              <ServicesItems
             title='Club Lounge'
             image = {clubLounge}
@@ -85,9 +84,9 @@ export default function Facilities() {
                              
             
             />
-          
+          </div>
             </div>
-
-        </ServicesStyle>
+              <Footer />          
+        </FacilitiesStyle>
     )
 }

@@ -5,7 +5,7 @@ const ServicesItemStyle =styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap: 10rem;
+        /* gap: 10rem; */
         .imgList{
                 display: flex;
                 flex-direction: column;
@@ -15,16 +15,20 @@ const ServicesItemStyle =styled.div`
                 margin-left: 3rem;
                
         }
+        h1{
+                font-size: 1.5rem;
+                margin-top: 2rem;
+        }
         img{
                 width: 100%;
-                height: 100%;
-                margin-bottom: 2rem;
+                height: 40vh;
+                /* margin-bottom: 2rem; */
         }
         .itemList{
                 display: flex;
                 flex-direction: column;
-                flex-basis: 60%;
-                justify-content: flex-start;
+                flex-basis: 40%;
+                justify-content: center;
                 align-items: flex-start;
                 margin-top: 51px;
                 

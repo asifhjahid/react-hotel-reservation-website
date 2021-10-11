@@ -4,6 +4,7 @@ import RomeImage from '../../assets/images/room.jpg'
 import RoomsStyle from '../../style/Rooms.styles'
 import Banner from '../Banner'
 import Button from '../Button'
+import Footer from '../Footer'
 import Hero from '../Hero'
 import RoomsContainer from '../RoomsContainer'
 
@@ -17,6 +18,7 @@ export default function Rooms() {
              
             </Banner>
             <RoomsContainer />
+            <Footer />
         </RoomsStyle>
     )
 }
