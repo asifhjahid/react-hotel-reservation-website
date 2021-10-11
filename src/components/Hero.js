@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeImage from '../assets/images/homeImage.jpg'
+import HomeImage from '../assets/images/homeImg3.jpg'
 import HeroStyle from '../style/Hero.styles'
 
 export default function Hero({children}) {

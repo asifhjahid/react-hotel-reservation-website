@@ -3,18 +3,14 @@ import styled from "styled-components";
 const ServicesStyle =styled.div`
 
         margin-top: 30px;
+        width: 90%;
+        margin: 0 auto;
 
        .services{
-        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
         background: var(--darkGrey);
-        text-align: center;
-        width: 90vw;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-        grid-row-gap: 2rem;
-        grid-column-gap: 50px;
-
+        
        }
 `
 

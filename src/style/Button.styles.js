@@ -7,6 +7,7 @@ const ButtonStyle =styled.div`
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
+  /* color: #fff; */
   background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);

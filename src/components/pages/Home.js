@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import HomeStyle from '../../style/Home.styles'
 import Banner from '../Banner'
 import Button from '../Button'
 import FeaturedRoom from '../FeaturedRoom'
 import Hero from '../Hero'
-import Services from './Services'
+import Facilities from './Facilities'
+
 
 export default function Home() {
     return (
@@ -13,14 +14,15 @@ export default function Home() {
             <Hero>
                 <Banner 
                     title='luxurious rooms'
-                    subtitle='deluxe rooms starting at টঃ299'
+                    subtitle='deluxe rooms starting at $499'
                     >
                     <Button link='/rooms' text='Our Rooms' />
                    
                 </Banner>
              </Hero>
-            <Services />
             <FeaturedRoom />
+            {/* <Services /> */}
+           <Facilities />
         </HomeStyle>
     )
 }

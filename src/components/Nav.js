@@ -40,7 +40,7 @@ export default function Nav() {
                     <NavLink to='/rooms'>Rooms</NavLink>
                 </li>
                 <li onClick={()=>setShowNav(!showNav)}>
-                        <NavLink to='/services'>Services</NavLink>
+                        <NavLink to='/facilities'>Facilities</NavLink>
                     </li>
                     <li onClick={()=>setShowNav(!showNav)}>
                         <NavLink to='/about'>About</NavLink>
