@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import roomItems from '../assets/data/data'
+import projectData from '../assets/data/data'
 const RoomContext = React.createContext();
 
 class RoomProvider extends Component{
@@ -20,7 +20,7 @@ class RoomProvider extends Component{
 
 //get Data
 componentDidMount(){
-    let rooms = this.formatData(roomItems);
+    let rooms = this.formatData(projectData);
     // console.log(rooms);
     let featuredRooms = rooms.filter(room=> room.featured===true);
     let maxPrice = Math.max(...rooms.map(item=>item.price))

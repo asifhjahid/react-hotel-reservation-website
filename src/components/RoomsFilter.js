@@ -1,5 +1,6 @@
 import React,{useContext} from 'react'
 import { RoomContext } from '../context/Context'
+import FilterStyle from '../style/RoomsFilter.styles'
 import Title from './Title'
 
 
@@ -34,7 +35,7 @@ export default function RoomsFilter({rooms}) {
     })
 
     return (
-        <div className='filter-container'>
+        <FilterStyle>
             <Title title='Search Rooms' />
             <form className='filter-form'>
                 <div className='form-group'>
@@ -109,6 +110,6 @@ export default function RoomsFilter({rooms}) {
                     </div>
                 </div>
             </form>
-        </div>
+        </FilterStyle>
     )
 }
