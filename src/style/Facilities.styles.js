@@ -12,6 +12,12 @@ const FacilitiesStyle =styled.div`
         background: var(--darkGrey);
         
        }
+       @media only screen and (max-width:990px){
+               .services{
+                       display: block;
+               }
+       }
+       
 `
 
 export default FacilitiesStyle;

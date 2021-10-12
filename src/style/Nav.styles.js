@@ -106,7 +106,7 @@ const NavStyle = styled.div`
             .NavMobileOpen{
                 position: absolute;
                 left: 20%;
-                top: 51%;
+                top: 47%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;

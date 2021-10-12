@@ -42,7 +42,7 @@ export default function Footer() {
                         
                     },
                     {
-                        title:'asifdiu44@gmail.com'
+                        title:'asifdhrubo.cse@gmail.com'
                     },
                     {
                         title:'+8801616882641'

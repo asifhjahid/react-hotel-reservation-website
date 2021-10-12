@@ -11,6 +11,7 @@ const TitleStyle = styled.div`
     font-size: 2rem;
     letter-spacing: var(--mainSpacing);
     text-transform: capitalize;
+    margin-top: 50px;
     /* margin-bottom: 1rem; */
   }
     hr {

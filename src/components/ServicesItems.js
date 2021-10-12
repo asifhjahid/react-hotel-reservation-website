@@ -8,7 +8,7 @@ export default function ServicesItems({title,image,subTitle,servicesList}) {
         <ServicesItemStyle>
             <div className='imgList'>
             <h1>{title}</h1>
-            <div>
+            <div className='imgDIv'>
             <img src={image} alt='' />
             </div>
             
