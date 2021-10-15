@@ -122,10 +122,10 @@ const NavStyle = styled.div`
             }
             
             .NavList{
-                padding: 2rem;
+                padding: 0 2rem;
                 width: 80%;
                 max-width: 250px;
-                background-color: #1E1E1E;
+                background-color:  #e0030b;
                 border-radius: 14px;
                 position: absolute;
                 top: 45px;
